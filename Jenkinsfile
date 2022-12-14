@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage("Checkout") {
 			steps{
-				git 'https://github.com/matveyfil/CA2'
+				git "https://github.com/matveyfil/CA2"
 				echo "Stage 1- Checkout"
 				sh "pwd"
 			}
